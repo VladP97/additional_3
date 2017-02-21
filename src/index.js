@@ -19,7 +19,7 @@ module.exports = function getBase(base) {
       }
     }
     if(reminder.length == count){
-      return i;
+      return i.toString();
     }
   }
 }
